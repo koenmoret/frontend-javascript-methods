@@ -13,7 +13,11 @@ console.log(word.length);
 const fruit = "Banaan";
 const vegetable = "Aardappel";
 
-
+if(fruit.length > vegetable.length){
+    console.log("True");
+}else {
+    console.log("False");
+}
 
 /* Opdracht 2 */
 //  Zorg ervoor dat de laatste letter van het woord in fruit en vegetable (hierboven) in de terminal gelogd wordt.
